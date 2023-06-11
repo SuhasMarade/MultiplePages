@@ -1,0 +1,160 @@
+/* CSS for all */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow: hidden;
+
+}
+body{
+    background-color: #f0f4f5;
+    z-index: -2;
+}
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 160px;
+}
+/* Logo Image */
+img[alt="logo"]{
+    margin-top: 10px;
+    width: 145px;
+    cursor: pointer;
+}
+/* Menu list */
+.menu{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.menu li{
+    list-style: none;
+}
+/* Menu list hyperlink */
+.menu li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    padding: 5px 5px;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    font-size: 600;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 40px ;
+}
+
+/* left Heading  */
+.left h1{
+    font-size: 72px;
+    font-weight: 800;
+}
+/* left paragraph */
+.left p{
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 400;
+    color: #808080;
+}
+
+/* Appointment */
+
+.appointment-button{
+    color: #ffffff;
+    font-size: 24px;
+    background-color: #20bc7e;
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    padding: 15px 35px;
+}
+.appointment-button:hover{
+    border: #20bc7e;
+    background-color: #098754;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Left side of Main */
+.left{
+    
+    margin-top: 120px;
+    margin-left: 65px;
+}
+
+/* Green cicle image */
+img[alt="greenBox"]{
+    width: 530px;
+    position: absolute;
+    right: -1px;
+    top: 185px;
+    z-index: 2;
+}
+
+/* Orange circle image */
+img[alt="yellowBox"]{
+    width: 450px;
+    position: absolute;
+    right: -3px;
+    top:245px;
+    z-index: 3;
+}
+
+/* Doctor image */
+img[alt="doctor"]{
+    position: absolute;
+    bottom: 0;
+    right: -2px;
+    width: 475px;
+    z-index: 4;
+}
+
+/* Top angle */
+img[alt="topAngle"]{
+    width: 25px;
+}
+
+/* bottom angle */
+img[alt="bottomAngle"]{
+    width: 25px;
+    position: relative;
+    top: 20px;
+    left: 635px;
+}
+
+/* Button Appointment Div */
+.buttonA{
+    margin-top: -10px;
+}
+
+/* Mouse Image */
+img[alt="mouse"]{
+    position: absolute;
+    left: 800px;
+    bottom: 86px;
+    width: 30px;
+}
+
+/* Stethoscope Image */
+img[alt="stethoscope"]{
+    position: absolute;
+    top: 135px;
+    left: 23%;
+    width: 40%;
+    z-index: -1;
+}

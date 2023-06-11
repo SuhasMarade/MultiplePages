@@ -1,0 +1,115 @@
+/* CSS For All */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow: hidden;
+    background-color: #f0f4f5;
+
+}
+
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 160px;
+}
+
+/* Menu list */
+.menu{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.menu li{
+    list-style: none;
+}
+
+/* Menu list hyperlink */
+.menu li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    padding: 5px 5px;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    font-size: 600;
+}
+
+/* Logo image */
+img[alt="logo"]{
+    margin-top: 10px;
+    width: 145px;
+    cursor: pointer;
+}
+/* Main section */
+.about-us{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 13% 25% 10%;
+}
+/* Main Heading */
+.about-us h1{
+    font-size: 32px;
+    color: #20bc7e;
+}
+/* Main paragraph */
+.paragraph{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+}
+/* Block Section */
+.group{
+    margin-top: 45px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+/* Individual Block */
+.block{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 25px 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px black;
+}
+
+/* Block Span */
+.block span{
+    font-size: 23px;
+    color: #20bc7e;
+    font-weight: 800;
+}
+
+/* Block Paragraph */
+.block p{
+    font-weight: 600;
+    color: #000000;
+}

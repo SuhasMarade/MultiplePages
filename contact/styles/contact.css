@@ -1,0 +1,125 @@
+/* CSS for All */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow: hidden;
+    background-color: #f0f4f5;
+
+}
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 160px;
+}
+/* Menu list */
+.menu{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.menu li{
+    list-style: none;
+}
+
+/* Menu list Hyperlink */
+.menu li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    padding: 5px 5px;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    font-size: 600;
+}
+/* Logo image */
+img[alt="logo"]{
+    margin-top: 10px;
+    width: 145px;
+    cursor: pointer;
+}
+
+/* Main Body */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7% 30% 17%;
+    padding: 20px 20px;
+}
+
+/* Form */
+form{
+    width: 350px;
+    height: 430px;    
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px 14px 18px;
+}
+/* Form Different section */
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 13px;
+    padding: 1px 5px;
+}
+/* Heading */
+form h1{
+    text-align: center;
+}
+
+/* Input */
+input{
+    background-color: #ffffff;
+    border: transparent;
+    border-radius: 10px;
+    height: 28px;
+    padding: 5px 10px;
+    outline: none;
+}
+/* Message area */
+textarea{
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: transparent;
+    resize: none;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    outline: none;
+}
+/* Input Section Name */
+label{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* Submit Button */
+button{
+    background-color: #20bc7e;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 8px 30px;
+    width: 315px;
+}
+button:hover{
+    background-color: #098754;
+    border: #20bc7e;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
